@@ -4,7 +4,7 @@
   Modified in November, 2017 by flerlagekr in order to write a CSV file of line paths.
   
   When running the sketch:
-  1. Place an image in the folder of the code.
+  1. Place an image in the same folder folder as this code file.
   2. Set the image name in the Setup routine (expects jpg, but can be changed to png or other).
   3. Set the various parameters by clicking.
   4. Select a circular region by pressing the mouse in the center of the circle
