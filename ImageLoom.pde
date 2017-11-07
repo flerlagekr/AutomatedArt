@@ -5,17 +5,16 @@
   
   When running the sketch:
   1. Place an image in the same folder folder as this code file.
-  2. Set the image name in the Setup routine (expects jpg, but can be changed to png or other).
-  3. Set the various parameters by clicking.
-  4. Select a circular region by pressing the mouse in the center of the circle
-     and dragging it to the desired size.
+  2. Set the image name in the setup() procedure (expects jpg, but can be changed to png or other).
+  3. Run the code.
+  4. The image should be loaded. Select a circular region by pressing the mouse in the center of the 
+     circle and dragging it to the desired size.
   5. Click the "set circle" button.
-  6. If you are ready, click the "compute" button.
-  7. Wait a few seconds while paths are generated.
-  8. The screen will indicate when the output csv is finished being written.
-     It is placed in the same folder as the code & image.
-  9. Clicking the "display" button will change the display. First click will place the original
-     Image behind the loom. Second click will display a negative image of the loom.
+  6. Click the "compute" button and wait a few seconds while paths are generated.
+  7. The output window will indicate when the output csv is finished being written.
+     The csv will placed in the same folder as the code & image.
+  8. Clicking the "display" button will change the display. First click will place the original
+     Image behind the loom. Second click will display a negative image of the loom. Neither will produce csv output.
   
   NOTE: 
     A selected region with diameter of about 500 to 800 pixels works well.
