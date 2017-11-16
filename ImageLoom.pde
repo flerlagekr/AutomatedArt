@@ -4,18 +4,22 @@
   Modified in November, 2017 by flerlagekr in order to write a CSV file of line paths.
   
   When running the sketch:
-  1. Place an image (must be in jpeg format) in the same folder as this code file.
-  2. Set the image name in the setup() procedure.
-  3. Set the output path in the draw() routine (line 171 of the code). The format I use is for a PC.
-  4. Run the code.
-  5. The image should be loaded. Select a circular region by pressing the mouse in the center of the 
-     circle and dragging it to the desired size.
-  6. Click the "set circle" button.
-  7. Click the "compute" button and wait a few seconds while paths are generated.
-  8. The output window will indicate when the output csv is finished being written.
-     The csv will placed in the folder you configured in step 3.
-  9. Clicking the "display" button will change the display. First click will place the original
-     Image behind the loom. Second click will display a negative image of the loom. Neither will produce csv output.
+   1. Place an image (must be in jpeg format) in the same folder as this code file.
+   2. If you are using a Mac, you will need to add the mage to the "sketch". 
+      To do this, click the Sketch menu, choose Add File, then select the image.
+   3. Set the image name in the setup() procedure.
+   4. Set the output path in the draw() routine (line 175 of the code). The format I use here is for a PC.
+   5. Run the code.
+   6. The image should be loaded. Select a circular region by pressing the mouse in the center of the 
+      circle and dragging it to the desired size.
+   7. Click the "set circle" button.
+   8. Click the "compute" button and wait a few seconds while paths are generated.
+   9. The output window will indicate when the output csv is finished being written.
+      The csv will placed in the folder you configured in step 3.
+      Note: If you run this process multiple times, it will continuously append to the same file. 
+      Thus, it is best to delete the file after each run to prevent this from happenning. 
+  10. Clicking the "display" button will change the display. First click will place the original
+      Image behind the loom. Second click will display a negative image of the loom. Neither will produce csv output.
   
   NOTE: 
     Resizing and/or cropping your image to a square of width and height of 500 to 800 pixels works well.
