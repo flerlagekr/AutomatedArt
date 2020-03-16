@@ -12,4 +12,4 @@ See the license file for licensing details.
 
 Allows you to create images like the following:
 
-![Afghan Girl](https://i.imgur.com/QBINaaA.png)
+![Loom Art](https://i.imgur.com/QBINaaA.png)
