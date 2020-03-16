@@ -9,6 +9,7 @@ To run this code, you'll need Processing (https://processing.org/download/). Ope
 
 See the license file for licensing details.
 
+Blog: https://www.flerlagetwins.com/2017/11/loom-art-in-tableau_92.html?showComment=1562709288830&m=1
 
 Allows you to create images like the following:
 
